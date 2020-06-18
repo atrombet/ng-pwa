@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+form {
+  width: 100%;
+}
+
+form > * {
+  margin-bottom: 1.5em;
+  width: 100%;
+}
+
+.content {
+  padding: 0.5em;
+}
+
+.sidenav-content {
+  flex-direction: column;
+}
+
+.sidenav-container {
+  height: calc(100% - 64px);
+}
+
+.app-content {
+  flex: 1;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.full-width {
+  width: 100%;
+}
